@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: bisque;
+  background-color: rgb(138, 170, 231);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 40px;
+}
+
+h1 {
+  color: rgb(92, 113, 154);
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.mi-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagentareas-logo {
+  width: 200px;
+  height: 200px;
+}
+
+/*LISTA DE TAREAS */
+
+.tasks-list {
+  width: 600px;
+  min-height: 500px;
+  background-color: rgb(172, 229, 210);
+  padding: 25px;
+  margin: 10px;
+  border: 5px solid white;
+  border-radius: 15px;
+}
